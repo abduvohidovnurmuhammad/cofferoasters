@@ -130,6 +130,9 @@ margin-bottom: 56px;
 .hero{
   margin-bottom: 136px;
 }
+ .hero-our{
+  margin-bottom: 200px;
+ }
 .hero-our__blok{
   width: 1111px;
   margin: 0 auto;
@@ -141,7 +144,6 @@ margin-bottom: 56px;
   padding-top: 126px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
 }
 .hero-our__imgblock{
   width: 255px;
@@ -167,4 +169,100 @@ font-size: 16px;
 line-height: 26px;
 text-align: center;
 color: #333D4B;
+}
+.choose{
+  padding-bottom: 200px;
+}
+.choose__top{
+  background: #282F38;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-bottom: 86px;
+  text-align: center;
+  position: relative;
+}
+.choose__title{
+  font-family: 'Fraunces';
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+margin-bottom: 32px;
+}
+.choose__text{
+  font-family: 'Barlow';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+opacity: 0.8;
+max-width: 540px;
+margin: 0 auto;
+}
+.choose__list{
+  max-width: 1111px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.choose__item{
+  padding: 72px 48px 48px 48px;
+  background-color: #0E8784;
+  border-radius: 8px;
+  max-width: 350px;
+  text-align: center;
+  
+}
+.choose__inner-title{
+  font-family: 'Fraunces';
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #FEFCF7;
+margin-bottom: 24px;
+}
+.choose__inner-text{
+  font-family: 'Barlow';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+.choose__item:nth-child(1)::before{
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-image: url(../img/cofeone.svg);
+  display: inline-block;
+}
+.choose__item:nth-child(2)::before{
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-image: url(../img/podarok.svg);
+  display: inline-block;
+}
+.choose__item:nth-child(3)::before{
+  content: "";
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-image: url(../img/machine.svg);
+  display: inline-block;
+}
+
+.choose__emty{
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #282F38;
+  height: 245px;
+  z-index: -1;
+  bottom: -67%;
+}
+.choose__inner-title{
+  padding-top: 56px;
 }
