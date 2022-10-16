@@ -1,3 +1,4 @@
+
 /* barlow-regular - latin */
 @font-face {
   font-family: 'Barlow';
@@ -53,9 +54,7 @@ img{
   width: 100%;
   height: auto;  
 }
-.site-header{
-  padding: 44px 0;
-}
+
 .container{
   max-width: 1320px;
   margin: 0 auto;
@@ -96,13 +95,9 @@ margin-right: 33px;
   letter-spacing: 0.923077px;
   text-transform: uppercase;
   color: #83888F;
-  border: 1px solid transparent;
 }
 .home{
   color: #333D4B;
-}
-.site-header__link:hover{
-  border: 1px solid #000;
 }
 .hero__block{
   padding: 117px 0;
@@ -214,7 +209,7 @@ margin: 0 auto;
   padding: 72px 48px 48px 48px;
   background-color: #0E8784;
   border-radius: 8px;
-  max-width: 350px;
+max-width: 350px;
   text-align: center;
   
 }
@@ -288,10 +283,22 @@ margin-bottom: 80px;
 .work__dash{
   display: flex;
   justify-content: space-between;
-border: 2px solid #FDD6BA;
+  width: 100%;
   max-width: 760px;
   position: relative;
   margin-bottom: 82px;
+}
+.work__dash::before{
+  position: absolute;
+  bottom: 15.5px;
+  z-index: -1;
+  width: 100%;
+  height: 2px;
+  background-color: 
+  #FDD6BA;
+  content: "";
+  
+  
 }
 .work__span{
 width: 31px;
@@ -352,7 +359,6 @@ color: #333D4B;
   display: flex;
   align-items: center;
 }
-
 .site-footer__list{
   display: flex;
   justify-content: space-between;
@@ -366,7 +372,7 @@ color: #333D4B;
   transition-duration: 1s;
 }
 .site-footer__item:hover{
- background-color: hsl(182, 87%, 50%)
+ background-color: #12e6ed
 }
 .item__link:hover{
   color: #000;
@@ -393,4 +399,64 @@ color: #FEFCF7;
   width: 120px;
   display: flex;
   justify-content: space-between;
+}
+.work__item{
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+.work__item:hover{
+  background-color: #d36dd3;
+  
+}
+.choose__item{
+  transition-timing-function: ease;
+  transition-duration: 1s;
+  transition-property: all;
+}
+.choose__item:hover{
+background-color: purple;
+cursor: pointer;
+}
+.hero-our__item{
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+  transition-property: all;
+}
+.hero-our__item:hover{
+  background-color: #00ffd0;
+  cursor: pointer;
+}
+.site-header__item{
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+.site-header__item:hover{
+  background-color: #12e6ed
+}
+.site-header__link:hover{
+  color: #000;
+}
+.work__title:hover{
+      cursor: pointer;
+      color: #000;
+}
+.site-header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  padding: 44px 0;
+  background-color: #fff;
+}
+.site-header__blok{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.hero{
+  margin-top: 120px;
 }
