@@ -72,6 +72,10 @@ img{
     border-radius: 6px;
     font-family: 'Fraunces';
     padding: 16px 31px; 
+    transition-duration: 1s;
+  }
+  .btn:hover{
+    background: #5331c2;
   }
 .site-header__container{
   display: flex;
@@ -266,3 +270,78 @@ color: #FEFCF7;
 .choose__inner-title{
   padding-top: 56px;
 }
+.work__container{
+width: 1045px;
+margin: 0 auto;
+border: 1px solid red;
+}
+.work{
+  padding-bottom: 200px;
+}
+.work__title{
+  font-family: 'Fraunces';
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-bottom: 80px;
+}
+.work__dash{
+  display: flex;
+  justify-content: space-between;
+border: 2px solid #FDD6BA;
+  max-width: 760px;
+  position: relative;
+  margin-bottom: 82px;
+}
+.work__span{
+width: 31px;
+height: 31px;
+background: #FEFCF7;
+border: 2px solid #0E8784;
+border-radius: 50%;
+display: inline-block;
+}
+.work__number{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+margin-bottom: 38px;
+}
+.work__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.work__item{
+  width: 285px;
+  border: 3px solid transparent;
+  margin-bottom: 64px;
+  
+}
+.work__item:hover{
+  border: 3px solid #000;
+}
+.work__task{ 
+font-family: 'Fraunces';
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+margin-bottom: 42px;
+max-width: 255px;
+height: 73px;
+}
+.work__text{
+  font-family: 'Barlow';
+ max-width: 285px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+
